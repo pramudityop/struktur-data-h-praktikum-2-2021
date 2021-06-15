@@ -36,3 +36,15 @@ AC Perbaikan
 Diberikan suatu tree, program diminta menentukan apakah ada penjumlahan tiga node terhubung yang menghasilkan jumlah tertentu sum dalam tree.
 ### Penjelasan Solusi
 Program menggunakan fungsi bool untuk menjumlahkan tiap kombinasi 3 node terhubung dan mengecek apakah jumlahnya sebesar sum
+## Banyu
+### Verdict
+### Bukti
+### Penjelasan Soal
+Diberikan sebuah tree yang tiap cabang node memiliki jarak tertentu untuk melewatinya. Untuk setiap query, program diminta mencari leaf terdekat dari node tertentu.
+### Penjelasan Solusi
+## Penomoran Garasi Saha
+### Verdict
+### Bukti
+### Penjelasan Soal
+Diberikan sebuah tree. Program diminta mendata node tree pada tingkat terbawah sampai tingkat teratas dengan pola nilai minimal, maksimal, minimal, dst.
+### Penjelasan Solusi
