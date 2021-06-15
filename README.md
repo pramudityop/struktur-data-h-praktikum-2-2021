@@ -14,12 +14,25 @@ AC Perbaikan
 ### Bukti
 ![genjil](./Screenshot/genjil.PNG)
 ### Penjelasan Soal
+Diminta membuat binary search tree yang isinya angka genap semua. Jika ada input ganjil, angka genap terakhir dihapus dari tree. Diminta mengeluarkan output terkecil hingga terbesar.
+### Penjelasan Solusi
+Program menggunakan stack untuk menyimpan trace angka genap terakhir. Pertama program mengambil jumlah testcase. Program mengambil input. Jika genap, masukkan angka ke tree dan stack. Jika ganjil, keluarkan angka (yang ada pada atas stack) dari tree, kemudian pop stack. Setelah selesai, keluarkan output secara inorder.
+## Malur Terhubung
+### Verdict
+AC Perbaikan
+### Bukti
+![malur](./Screenshot/malur.PNG)
+### Penjelasan Soal
 Diberikan input angka dalam tree. Untuk setiap query l dan r, outputkan hasil penjumlahan subtree yang menghubungkan l dan r (l<r). Jika l/r tidak dalam tree, outputkan ``-1``.
 ### Penjelasan Solusi
 Untuk setiap query program:
 ambil l dan r lalu ditukar l dan r jika l>r, Jika l dan r ada dalam tree. Jika tidak keluarkan -1. lalu menjalankan fungsi ``solution`` untuk mencari a,b untuk dijumlah.
-## Malur Terhubung
+## Nadut Gabut
 ### Verdict
+AC Perbaikan
 ### Bukti
+![nadut](./Screenshot/nadut.PNG)
 ### Penjelasan Soal
+Diberikan suatu tree, program diminta menentukan apakah ada penjumlahan tiga node terhubung yang menghasilkan jumlah tertentu sum dalam tree.
 ### Penjelasan Solusi
+Program menggunakan fungsi bool untuk menjumlahkan tiap kombinasi 3 node terhubung dan mengecek apakah jumlahnya sebesar sum
