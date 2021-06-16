@@ -38,13 +38,17 @@ Diberikan suatu tree, program diminta menentukan apakah ada penjumlahan tiga nod
 Program menggunakan fungsi bool untuk menjumlahkan tiap kombinasi 3 node terhubung dan mengecek apakah jumlahnya sebesar sum
 ## Banyu
 ### Verdict
+WA
 ### Bukti
 ### Penjelasan Soal
 Diberikan sebuah tree yang tiap cabang node memiliki jarak tertentu untuk melewatinya. Untuk setiap query, program diminta mencari leaf terdekat dari node tertentu.
-### Penjelasan Solusi
+### Penjelasan Ide
+Program membuat query, lalu program menggunakan DFS untuk menghitung jarak, dan mengupdate jarak minimum & daun terdekat saat mencapai leaf. Kemudian mengoutputkan leaf terdekat.
 ## Penomoran Garasi Saha
 ### Verdict
+WA
 ### Bukti
 ### Penjelasan Soal
 Diberikan sebuah tree. Program diminta mendata node tree pada tingkat terbawah sampai tingkat teratas dengan pola nilai minimal, maksimal, minimal, dst.
 ### Penjelasan Solusi
+Program diminta untuk menentukan output dengan pola min-max-min dari tingkat terbawah sampai ke atas, maka dari root ke tingkat bawah ada dua kemungkinan: Jika jumlah tingkat dalam tree h ganjil, maka dari tingkat atas ke bawah min-max-min. Jika genap maka max-min-max. Jumlah tingkat tree ditentukan melalui fungsi yang mengukur tingkat dan yang memanggil fungsi rekursi.
