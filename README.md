@@ -50,5 +50,5 @@ WA
 ### Bukti
 ### Penjelasan Soal
 Diberikan sebuah tree. Program diminta mendata node tree pada tingkat terbawah sampai tingkat teratas dengan pola nilai minimal, maksimal, minimal, dst.
-### Penjelasan Solusi
+### Penjelasan Ide
 Program diminta untuk menentukan output dengan pola min-max-min dari tingkat terbawah sampai ke atas, maka dari root ke tingkat bawah ada dua kemungkinan: Jika jumlah tingkat dalam tree h ganjil, maka dari tingkat atas ke bawah min-max-min. Jika genap maka max-min-max. Jumlah tingkat tree ditentukan melalui fungsi yang mengukur tingkat dan yang memanggil fungsi rekursi.
